@@ -1,0 +1,37 @@
+{
+  "name": "wynnstock-festival",
+  "version": "1.0.0",
+  "description": "Wynnstock Festival expansion viewer",
+  "main": "index.js",
+  "bin": {
+    "wynnstock-festival": "main.js"
+  },
+  "scripts": {
+    "start": "webpack src/main.js --output bin/app.js -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maysick/wynnstock-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maysick/wynnstock-festival/issues"
+  },
+  "homepage": "https://github.com/Maysick/wynnstock-festival#readme",
+  "dependencies": {
+    "mithril": "^2.0.0-rc.9",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.5.5",
+    "@types/mithril": "^1.1.17",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
